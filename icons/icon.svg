@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!--
+    Noah icon: six concentric "staple" bands — vertical sides + rounded top,
+    sitting just above a waterline.
+    Band baseline y=111 so round caps end at y=116, leaving a 2px gap to the
+    waterline at y=118. Arc center y=62 gives ~3px top margin for the
+    outer band's stroke.
+  -->
+  <g stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 10,111 L 10,62 A 54,54 0 0 1 118,62 L 118,111" stroke="#ff4d4d"/>
+    <path d="M 20,111 L 20,62 A 44,44 0 0 1 108,62 L 108,111" stroke="#ff9500"/>
+    <path d="M 30,111 L 30,62 A 34,34 0 0 1  98,62 L  98,111" stroke="#ffd60a"/>
+    <path d="M 40,111 L 40,62 A 24,24 0 0 1  88,62 L  88,111" stroke="#34c759"/>
+    <path d="M 50,111 L 50,62 A 14,14 0 0 1  78,62 L  78,111" stroke="#007aff"/>
+    <path d="M 60,111 L 60,62 A  4, 4 0 0 1  68,62 L  68,111" stroke="#af52de"/>
+  </g>
+  <!-- Waterline anchoring the rainbow (the "ark" base). -->
+  <rect x="2" y="118" width="124" height="10" rx="5" fill="#5ac8fa" opacity="0.5"/>
+</svg>
